@@ -19,5 +19,17 @@ HarukaBot 针对不同的推送场景（粉丝群、娱乐群、直播通知群�
 - 指定推送内容@全体成员，次数用光自动忽略。
 - 同时连接多个 QQ 号，避免@全体成员次数不够。
 
+## 开发
+
+使用poetry作为包管理器
+```
+# 创建虚拟环境
+poetry env use python
+# 安装依赖
+poetry install
+# 启动机器人
+poetry run python bot.py
+```
+
 ## 许可证
 本项目使用 [GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/) 作为开源许可证。
